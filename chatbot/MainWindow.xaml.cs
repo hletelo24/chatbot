@@ -33,9 +33,9 @@ namespace chatbot
         {
             PlayVoiceGreeting();
             DisplayAsciiArt();
-            AddToChat("CyberGuard", "Hello! Welcome to the Cybersecurity Awareness Bot.\nI'm here to help you stay safe online.", Colors.Cyan);
+            AddToChat("CyberGuard", "Hello! Welcome to the Cybersecurity Awareness ChatBot.\nI'm here to help you stay safe online.", Colors.Cyan);
             AddToChat("CyberGuard", "What is your name?", Colors.Cyan);
-        }
+       
 
         private void PlayVoiceGreeting()
         {
