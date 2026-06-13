@@ -52,8 +52,29 @@
         <!-- Sidebar -->
         <StackPanel Grid.Column="1" Margin="10">
             
-            <Button Content="Show Activity Log" Height="50" Margin="5" Click="btnLog_Click" Background="#AA66FF"/>
-            <Button Content="Clear Chat" Height="40" Margin="5" Click="btnClear_Click"/>
+            <Button Content="Show 
+                    Activity Log" 
+                    Height="50" 
+                    Margin="5" 
+                    Click="btnLog_Click"
+                    Background="#AA66FF"/>
+            <Button Content="Start Quiz"
+                Height="40"
+                Margin="5"
+                Click="btnQuiz_Click"/>
+
+            <Button Content="View Tasks"
+                Height="40"
+                Margin="5"
+                Click="btnTasks_Click"/>
+
+            <Button Content="Add Task"
+                Height="40"
+                Margin="5"/>
+            <Button Content="Clear Chat" 
+                    Height="40" Margin="5"
+                    Click="btnClear_Click"/>
+            
         </StackPanel>
     </Grid>
 </Window>
